@@ -50,5 +50,9 @@
     "rollup-plugin-auto-external": "^2.0.0",
     "sinon": "^6.3.5",
     "travis-lint": "^1.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "inquirer": "^6.2.0"
   }
 }
