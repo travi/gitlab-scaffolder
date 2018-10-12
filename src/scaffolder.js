@@ -1,5 +1,5 @@
 import chalk from 'chalk';
 
-export function scaffold() {
-  console.log(chalk.blue('Generating GitLab'));     // eslint-disable-line no-console
+export function scaffold({projectType}) {
+  console.log(chalk.blue(`Generating GitLab - ${projectType} project`));     // eslint-disable-line no-console
 }
