@@ -1,7 +1,5 @@
 # gitlab-scaffolder
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/travi/gitlab-scaffolder.svg)](https://greenkeeper.io/)
-
 VCS scaffolder for projects to be hosted on GitLab
 
 <!-- status badges -->
@@ -27,6 +25,7 @@ $ npm install @travi/gitlab-scaffolder --prod
 [![Commitizen friendly][commitizen-badge]][commitizen-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
 [![PRs Welcome][PRs-badge]][PRs-link]
+[![Greenkeeper badge](https://badges.greenkeeper.io/travi/gitlab-scaffolder.svg)](https://greenkeeper.io/)
 
 ### Dependencies
 
