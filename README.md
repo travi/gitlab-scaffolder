@@ -44,7 +44,7 @@ $ npm test
 [license-link]: LICENSE
 [license-badge]: https://img.shields.io/github/license/travi/gitlab-scaffolder.svg
 [ci-link]: https://travis-ci.com/travi/gitlab-scaffolder
-[ci-badge]: https://img.shields.io/travis/travi/gitlab-scaffolder.svg?branch=master
+[ci-badge]: https://img.shields.io/travis/com/travi/gitlab-scaffolder/master.svg
 [coverage-link]: https://codecov.io/github/travi/gitlab-scaffolder
 [coverage-badge]: https://img.shields.io/codecov/c/github/travi/gitlab-scaffolder.svg
 [commit-convention-link]: https://conventionalcommits.org
