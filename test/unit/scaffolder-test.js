@@ -1,5 +1,8 @@
+import {assert} from 'chai';
 import {scaffold} from '../../src/scaffolder';
 
 suite('scaffold', () => {
-  test('that a no-op function is provided for the scaffold expectation', () => scaffold({}));
+  test('that a no-op function is provided for the scaffold expectation', async () => {
+    assert.deepEqual(await scaffold({}), {});
+  });
 });
