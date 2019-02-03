@@ -1,5 +1,7 @@
 # gitlab-scaffolder
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/travi/gitlab-scaffolder.svg)](https://greenkeeper.io/)
+
 VCS scaffolder for projects to be hosted on GitLab
 
 <!-- status badges -->
