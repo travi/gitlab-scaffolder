@@ -53,6 +53,6 @@
   },
   "dependencies": {
     "chalk": "^2.4.1",
-    "inquirer": "^6.2.0"
+    "inquirer": "^7.0.0"
   }
 }
