@@ -1,7 +1,7 @@
-import chalk from 'chalk';
+import {info} from '@travi/cli-messages';
 
 export function scaffold({projectType}) {
-  console.log(chalk.blue(`Generating GitLab - ${projectType} project`));     // eslint-disable-line no-console
+  info(`Generating GitLab - ${projectType} project`);
 
   return {};
 }
