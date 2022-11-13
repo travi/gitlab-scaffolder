@@ -1,7 +1,7 @@
-import {prompt as promptWithInquirer} from 'inquirer';
+import {prompt as overridablePrompt} from '@form8ion/overridable-prompts';
 
 export function prompt({account} = {}) {
-  return promptWithInquirer([
+  return overridablePrompt([
     {
       name: 'repoOwner',
       message: 'What is the id of the repository owner?',

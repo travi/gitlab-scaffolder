@@ -1,5 +1,5 @@
 // import gitConfig from 'git-config';
-import inquirer from 'inquirer';
+import * as prompts from '@form8ion/overridable-prompts';
 import {assert} from 'chai';
 import sinon from 'sinon';
 import any from '@travi/any';
@@ -12,19 +12,19 @@ suite('prompt', () => {
   setup(() => {
     sandbox = sinon.createSandbox();
 
-    sandbox.stub(inquirer, 'prompt');
+    sandbox.stub(prompts, 'prompt');
   });
 
   teardown(() => sandbox.restore());
 
   test('that the options are optional', async () => {
-    inquirer.prompt.resolves(answers);
+    prompts.prompt.resolves(answers);
 
     assert.equal(await prompt(), answers);
   });
 
   test('that the gitlab user is provided as the default owner value if available in the global config', async () => {
-    inquirer.prompt
+    prompts.prompt
       .withArgs([
         {
           name: 'repoOwner',
@@ -39,7 +39,7 @@ suite('prompt', () => {
 
   test('that the gitlab user is not used as the default owner value an override is provided', async () => {
     const account = any.word();
-    inquirer.prompt
+    prompts.prompt
       .withArgs([
         {
           name: 'repoOwner',
