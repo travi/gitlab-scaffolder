@@ -1,2 +1,2 @@
-export * from './scaffolder';
-export * from './prompt';
+export * from './scaffolder.js';
+export * from './prompt.js';
