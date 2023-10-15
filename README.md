@@ -52,7 +52,7 @@ $ npm test
 
 [npm-link]: https://www.npmjs.com/package/@travi/gitlab-scaffolder
 
-[npm-badge]: https://img.shields.io/npm/v/@travi/gitlab-scaffolder.svg
+[npm-badge]: https://img.shields.io/npm/v/@travi/gitlab-scaffolder?logo=npm
 
 [license-link]: LICENSE
 
@@ -60,7 +60,7 @@ $ npm test
 
 [coverage-link]: https://codecov.io/github/travi/gitlab-scaffolder
 
-[coverage-badge]: https://img.shields.io/codecov/c/github/travi/gitlab-scaffolder.svg
+[coverage-badge]: https://img.shields.io/codecov/c/github/travi/gitlab-scaffolder?logo=codecov
 
 [commit-convention-link]: https://conventionalcommits.org
 
