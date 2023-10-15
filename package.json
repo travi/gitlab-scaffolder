@@ -7,8 +7,8 @@
   "repository": "travi/gitlab-scaffolder",
   "bugs": "https://github.com/travi/gitlab-scaffolder/issues",
   "homepage": "https://npm.im/@travi/gitlab-scaffolder",
-  "main": "lib/index.cjs.js",
-  "module": "lib/index.es.js",
+  "main": "./lib/index.js",
+  "module": "./lib/index.mjs",
   "scripts": {
     "clean": "rimraf lib/",
     "lint:js": "eslint . --cache",
@@ -22,7 +22,7 @@
     "watch": "run-s 'build:js -- --watch'",
     "prepack": "run-s build",
     "prepare": "husky install",
-    "lint:publish": "publint"
+    "lint:publish": "publint --strict"
   },
   "publishConfig": {
     "access": "public",
