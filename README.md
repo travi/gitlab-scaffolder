@@ -84,6 +84,6 @@ $ npm test
 
 [github-actions-ci-link]: https://github.com/travi/gitlab-scaffolder/actions?query=workflow%3A%22Node.js+CI%22+branch%3Amaster
 
-[github-actions-ci-badge]: https://github.com/travi/gitlab-scaffolder/workflows/Node.js%20CI/badge.svg
+[github-actions-ci-badge]: https://img.shields.io/github/actions/workflow/status/travi/gitlab-scaffolder/node-ci.yml.svg?branch=master&logo=github
 
 [slsa-badge]: https://slsa.dev/images/gh-badge-level2.svg
