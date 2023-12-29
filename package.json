@@ -38,7 +38,7 @@
     "@travi/cli-messages": "^1.0.3"
   },
   "devDependencies": {
-    "@babel/register": "7.22.15",
+    "@babel/register": "7.23.7",
     "@travi/any": "3.0.2",
     "@travi/babel-preset": "3.0.116",
     "@travi/eslint-config": "5.0.7",
